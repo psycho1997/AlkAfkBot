@@ -14,7 +14,7 @@
 - Restliche Parameter wie unten beschrieben ausfüllen und programm starten 
     - in cmd/ terminal ```python3 ts3bot.py``` 
 
-##Parameter
+## Parameter
 Grundlegend: alle Strings (also Wörter bestehend aus Buchstaben) müssen mit Anführungzeichen ("/') versehen werden, sont funktioniert nichts
 - LoginName: Login Name der ServerQuerry
 - Password: Passwort der ServerQuerry
