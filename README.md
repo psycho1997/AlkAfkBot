@@ -26,4 +26,3 @@ Grundlegend: alle Strings (also Wörter bestehend aus Buchstaben) müssen mit An
 - pokeAfterMove: Soll eine nachricht nach dem Moven per Anstupsen versendet werden? true/false
 - moveMsg: Poke-Nachricht
 - nickName: Name des Bots (Erscheint beim Poken und in der Clientliste)
-}
