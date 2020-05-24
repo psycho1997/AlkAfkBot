@@ -1,0 +1,12 @@
+{
+    "LoginName": "AfkBot", 
+    "Password": "+yoRqidJ",
+    "threshHold" : 0.5,
+    "delay" : 60,
+    "whitelistedgroups": ["test"], 
+    "afkchannels":["afk"],
+    "moveTo" : "afk" ,
+    "pokeAfterMove" : true,
+    "moveMsg": "Du wurdest wegen inaktivität in den AFK Channel gemoved!",
+    "nickName": "AFK-Bot by PsYcHo"
+}
