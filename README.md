@@ -16,6 +16,7 @@
 
 ## Parameter
 Grundlegend: alle Strings (also Wörter bestehend aus Buchstaben) müssen mit Anführungzeichen ("/') versehen werden, sont funktioniert nichts
+- ServerName: ip adresse und Port des Servers
 - LoginName: Login Name der ServerQuerry
 - Password: Passwort der ServerQuerry
 - threshHold: Anzahl der Minuten, nachdem ein inaktiver User gemoved wird
