@@ -6,6 +6,7 @@ import sys
 
 with open('preferences.json', 'r') as f:
     prefs = json.load(f)
+ip = prefs["ServerName"]
 threshHold = prefs["threshHold"]
 delay = prefs["delay"]
 whitelistedgroups = prefs["whitelistedgroups"]
@@ -44,7 +45,7 @@ def init(conn):
 
 def crawler():
 
-    with ts3.query.TS3ServerConnection("ssh://{}:{}@localhost:10022".format(loginName, password)) as ts3conn:
+    with ts3.query.TS3ServerConnection("ssh://{}:{}@{}".format(loginName, password, ip)) as ts3conn:
         init(ts3conn)
         while True:
             ts3conn.send_keepalive()

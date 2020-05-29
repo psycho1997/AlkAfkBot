@@ -1,6 +1,7 @@
 {
-    "LoginName": "AfkBot", 
-    "Password": "+yoRqidJ",
+    "ServerName" : "localhost:10011", 
+    "LoginName": "na", 
+    "Password": "na",
     "threshHold" : 15,
     "delay" : 60,
     "whitelistedgroups": ["Leader", "Gründer"], 
